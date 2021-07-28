@@ -5,9 +5,7 @@ import { Routes, RouterModule } from "@angular/router";
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { ServerComponent } from './server/server.component';
-import { ServersComponent } from './servers/servers.component';
-import { HeaderComponent } from './header/header.component';
+import { HeaderComponent } from './common/header/header.component';
 import { RentalComponent } from './rental/rental.component';
 
 import { RentalModul } from './rental/rental.module';
@@ -19,8 +17,6 @@ const routes: Routes = [
 @NgModule({
   declarations: [
     AppComponent,
-    ServerComponent,
-    ServersComponent,
     HeaderComponent,
   ],
   imports: [
